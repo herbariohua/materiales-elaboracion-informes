@@ -3,7 +3,7 @@ title: "Quarto Paths"
 author:
   - name: "Álex Espinosa Correa"
     affiliation: "Universidad de Antioquia"
-date: "2024-11-02"
+date: "2025-06-02"
 lang: es
 execute:
   echo: true
@@ -12,7 +12,8 @@ format:
     embed-resources: true
 ---
 
-Ahora intenta importar los datos por los métodos demostrados en el script `01_script_rutas.R`.
+Ahora intenta importar los datos por los métodos demostrados en el
+script `01_script_rutas.R`.
 
 Modifique el código según sea necesario.
 
@@ -42,7 +43,6 @@ datos_2 <-
 head(datos_2)
 ```
 
-
 ```{r}
 #| label: rutas-relativas-here
 
@@ -59,4 +59,5 @@ head(datos_3 )
 
 Renderizar este documento para confirmar que los datos han sido leídos.
 
-Si sus rutas funcionan correctamente, el documento renderizado debería mostrar los seis primeros datos `raw_data.csv`.
+Si sus rutas funcionan correctamente, el documento renderizado debería
+mostrar los seis primeros datos `raw_data.csv`.

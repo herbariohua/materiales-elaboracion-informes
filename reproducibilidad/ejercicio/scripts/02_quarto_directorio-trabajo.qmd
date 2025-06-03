@@ -3,7 +3,7 @@ title: "Directorio de trabajo de Quarto"
 author:
   - name: "Álex Espinosa Correa"
     affiliation: "Universidad de Antioquia"
-date: "2024-11-02"
+date: "2025-06-02"
 lang: es
 execute:
   echo: true
@@ -12,11 +12,15 @@ format:
     embed-resources: true
 ---
 
-Este es un archivo Quarto. Contiene texto (que usted está leyendo), así como código R.
+Este es un archivo Quarto. Contiene texto (que usted está leyendo), así
+como código R.
 
-Cuando pulse el botón **Renderizar** se generará un documento que incluye tanto el contenido así como la salida de cualquier fragmento de código de R incrustado en el documento.
+Cuando pulse el botón **Renderizar** se generará un documento que
+incluye tanto el contenido así como la salida de cualquier fragmento de
+código de R incrustado en el documento.
 
-Antes de `Renderizar` el documento, escriba sus predicciones de lo que devolverá el siguiente código.
+Antes de `Renderizar` el documento, escriba sus predicciones de lo que
+devolverá el siguiente código.
 
 ```{r}
 #| label: check-wd
@@ -37,4 +41,6 @@ getwd()
 getwd()
 ```
 
-Ahora que tienes tus predicciones, `Renderiza` este documento para ver si has acertado. Si ves algo diferente de lo que habías previsto coméntalo.
+Ahora que tienes tus predicciones, `Renderiza` este documento para ver
+si has acertado. Si ves algo diferente de lo que habías previsto
+coméntalo.
